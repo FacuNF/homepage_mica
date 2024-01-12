@@ -1,0 +1,313 @@
+/* ESPACIADO */
+.white-space{
+    height: 20vh;
+    background-color: none;
+    color: none;
+}
+
+/* INTRODUCCIÓN */
+.contenedor_general{
+  
+}
+.primera_parte{
+    background-image: url(https://wallpapercosmos.com/w/full/5/8/0/126180-3840x2160-desktop-4k-italy-wallpaper-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.contenedor_general>{
+    justify-content: center;
+}
+#color_menu{
+    background-color: none!important;
+}
+.posicion_dre{
+    justify-content: right;
+}
+.posicion_estudio{
+    width: 33%;
+    text-align: center;
+}
+.llamado_de_accion{
+    height: 80vh;
+    padding: 5%;
+}
+.llamado_de_accion h1{
+    color: black;
+}
+.llamado_de_accion span{
+    color: rgb(194, 127, 2);
+    text-shadow: 
+    1px 0px 10px rgba(0, 0, 0, 0.6),
+    -1px 0px 10px rgba(0, 0, 0, 0.6), 
+    0px 1px 10px rgba(0, 0, 0, 0.6), 
+    0px -1px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 5%;
+    font-weight: 600;
+}
+.llamado_de_accion *{
+    margin-bottom: 5%;
+    color: white;
+}
+.llamado_de_accion button{
+    height: 10%;
+}
+
+/* INFO / VALORES */
+.c_valores{
+    margin:auto;
+    height: auto;
+    margin-top: 50px;
+
+}
+.e_valores{
+    flex-direction: column;
+}
+.header_valores{
+    padding: 10%;
+    text-align: start;
+}
+.body_valores{
+}
+.body_valores div{
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    padding: 3.5%;
+    text-align: start;
+    transition: .31s;
+}
+.body_valores div *{
+    background-color: blanchedalmond;
+
+}
+.body_valores img{
+   align-self: center;
+   border-top-left-radius: 300%;
+   border-top-right-radius: 300%;
+   border-bottom-left-radius: 10%;
+   border-bottom-right-radius: 10%;
+   background-color: violet;
+   height: 70px; width: 160px;
+   transition: 1s
+}
+
+/* Movimiento */
+#_uno:hover img{
+   background-color: rgb(238, 58, 238);
+   height: 160px;
+   border-top-left-radius: 100%;
+   border-top-right-radius: 100%;
+   border-bottom-left-radius: 100%;
+   border-bottom-right-radius: 100%;
+   margin-top: -20px;
+   margin-bottom: 10px;
+   box-shadow: 1px 0px 1px 1px #444 ;
+   transition: 1s
+}
+#_uno:hover{
+    background-color: rgb(250, 219, 116);
+    border-top-left-radius:  1%;
+    border-top-right-radius: 50%;
+    margin-top: -20px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+
+    transition: .51s
+}
+#_dos:hover img{
+    background-color: rgb(238, 58, 238);
+    height: 160px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+    transition: 1s
+}
+#_dos:hover{
+    background-color: rgb(250, 219, 116);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: -20px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+
+    transition: .51s
+}
+#_tres:hover img{
+    background-color: rgb(238, 58, 238);
+    height: 160px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+    transition: 1s
+}
+#_tres:hover{
+    background-color: rgb(250, 219, 116);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    margin-top: -20px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+
+    transition: .51s
+}
+#_cuatro:hover img{
+    background-color: rgb(238, 58, 238);
+    height: 160px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    box-shadow: 1px 0px 1px 1px #444 ;
+
+    transition: 1s
+}
+#_cuatro:hover{
+    background-color: rgb(250, 219, 116);
+    margin-top: -20px;
+    border-top-right-radius: 1%;
+    border-top-left-radius: 50%;
+    transition: .51s;
+    box-shadow: 1px 0px 1px 1px #444 ;
+
+}
+
+/* PREGUNTAS FRECUENTES */
+
+.c_pfs{
+    flex-direction: column;
+}
+.header_pfs{
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    background-color: #9290907a;
+    border-radius: 1%;
+    color: black;
+    transition: 1s;
+}
+.c_pfs:hover .header_pfs{
+    color:black;
+    transition: 1s;
+}
+.e_pfs {
+    height: auto;
+    padding: 5%;
+}
+.e_pfs * {
+    height: 50%;
+    text-align: start;
+    justify-content: center;
+}
+.e_pfs div div{
+    padding: 5%;
+    flex-direction: column;
+}
+.e_pfs * h4{
+    color:#444;
+    padding-top: 10%;
+}
+.text_pfs{
+    height: auto;
+}
+.text_pfs * {
+    justify-content: end;
+    text-align: end;
+}
+
+#primera_pregunta{
+    height: 100%;
+    background-image: url(https://media.nomadicmatt.com/2022/florenceguidemain.jpeg);  
+    background-size: 50% 80%;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    border-radius: 1%;
+}
+
+#segunda_pregunta{
+    height: 100%;
+    background-image: url(https://serenaslenses.net/wp-content/uploads/2022/05/Florence.jpeg);  
+    background-size: 50% 80%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    border-radius: 1%;
+    color: none;
+}
+@media (max-width: 576px) { 
+    #primera_pregunta{
+        margin: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
+    }
+    #segunda_pregunta{
+        margin: auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 0%;
+    }
+    
+ }
+
+.mas_requisitos{
+    height: 30vh;
+    margin: auto;
+}
+
+.c_formulario_contacto{
+    height: 100vh;
+    padding: 5.5%;
+    background-color: #dddddd;
+}
+
+.background_pasaporte{
+    background-image: url(https://static.wixstatic.com/media/53680e_3e0a44c0263e4fa2a1bb0b0649562a32~mv2.jpg/v1/fill/w_740,h_654,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/53680e_3e0a44c0263e4fa2a1bb0b0649562a32~mv2.jpg);
+    background-repeat: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+}
+.e_formulario_contacto{
+    padding: 3%;
+}
+.e_formulario_contacto form{
+    height: 80%;
+    padding: 2%;
+}
+
+.intro_formulario_contacto{
+    height: 25%;
+}
+.intro_formulario_contacto h2 {
+    color: #EA5DED;
+}
+
+@media (max-width: 576px) {
+    .background_pasaporte{
+        display: none;
+    }
+    .intro_formulario_contacto{
+        height: auto;
+    }
+    
+}
+
+
+/* FOOTER */
+footer{
+    height: 10vh;
+}
